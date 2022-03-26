@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Buttons</title>
+    <link rel="stylesheet" href="timetable-button.css">
+    <script src="timetable-button.js"></script>
+</head>
+<body>
+    <div class="not-important__div1">
+        <div class="not-important__div2">
+            <button class="slot__button slot__button--diabled" data-store="disabled"></button>
+            <p class="not-important__p">Disabled</p>
+        </div>
+        <div class="not-important__div2">
+            <button class="slot__button slot__button--available" onclick="onClickSlot(this)" data-state="available"></button>
+            <p class="not-important__p">Available</p>
+        </div>
+        <div class="not-important__div2">
+            <button class="slot__button slot__button--selected" onclick="onClickSlot(this)" data-state="selected"></button>
+            <p class="not-important__p">Selected</p>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
